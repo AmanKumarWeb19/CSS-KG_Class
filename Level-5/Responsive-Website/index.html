@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>relative unit percentage</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #parent {
+        width: 200px;
+        height: 200px;
+        border: 5px solid red;
+        background-color: teal;
+        text-align: center;
+      }
+      #child1 {
+        width: 50%;
+        height: 40%;
+        border: 2px solid black;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      Parent
+      <div id="child1" class="child">Child</div>
+    </div>
+  </body>
+</html>
