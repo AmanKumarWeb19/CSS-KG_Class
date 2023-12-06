@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #h1 {
+        border: 5px solid red;
+        background-color: aqua;
+        width: 50%;
+        color: red;
+        margin: auto;
+        text-align: center;
+      }
+      #grid_container {
+        border: 5px solid red;
+        background-color: aquamarine;
+        width: 45%;
+        height: 200px;
+        display: grid;
+        grid-template-columns: 50px 100px;
+        gap: 5px;
+        margin: auto;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .box {
+        width: 100%;
+        border: 2px solid brown;
+        background-color: darkorchid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="h1">
+      <h1>Grid Layout</h1>
+    </div>
+    <div id="grid_container">
+      <div id="item1" class="box">Item 1</div>
+      <div id="item2" class="box">Item 2</div>
+      <div id="item3" class="box">Item 3</div>
+      <div id="item4" class="box">Item 4</div>
+    </div>
+  </body>
+</html>
