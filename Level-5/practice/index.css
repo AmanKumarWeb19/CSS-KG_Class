@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  padding: 5px;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 100px;
+  padding: 10px;
+}
+header {
+  background-color: bisque;
+  height: 30px;
+}
+#second {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50%;
+}
+#container {
+  border: 3px solid black;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  margin: 5px;
+  display: inline-block;
+}
+#box2 {
+  z-index: 2;
+  position: absolute;
+  left: 20px;
+}
+#box4 {
+  position: fixed;
+  right: 10px;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: aquamarine;
+}
