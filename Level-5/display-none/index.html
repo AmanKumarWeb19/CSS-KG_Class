@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display none</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        background-color: coral;
+        height: 200px;
+        width: 200px;
+        margin: 5px;
+        border: 2px solid black;
+        display: inline-block;
+        text-align: center;
+      }
+      #box2 {
+        /* visibility: hidden; */
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="box1" class="box">box1</div>
+      <div id="box2" class="box">box2</div>
+      <div id="box3" class="box">box3</div>
+    </div>
+  </body>
+</html>
