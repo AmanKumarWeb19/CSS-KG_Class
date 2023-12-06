@@ -1,0 +1,23 @@
+#btn {
+  height: 30px;
+  width: 80px;
+  border: 3px solid red;
+  border-radius: 10px;
+  background-color: bisque;
+  color: red;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+#btn:hover {
+  height: 50px;
+  width: 120px;
+  background-color: rgb(255, 196, 197);
+}
+#btn:active {
+  height: 50px;
+  width: 120px;
+  background-color: darkred;
+  color: white;
+}
