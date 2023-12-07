@@ -104,10 +104,14 @@ header {
   font-weight: 700;
 }
 
-.catergory_items{
-
+.catergory_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.sale_item{
-    
+.sale_item {
+  width: 250px;
 }
+
+
